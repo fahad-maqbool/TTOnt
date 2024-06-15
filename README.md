@@ -1,1 +1,1 @@
-# TTOnt
+# Table Tennis Ontology
