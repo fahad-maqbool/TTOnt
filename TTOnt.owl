@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#"
-     xml:base="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3"
+<rdf:RDF xmlns="https://fahad-maqbool.github.io/TTOnt#"
+     xml:base="https://fahad-maqbool.github.io/TTOnt"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:schema="https://schema.org">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3"/>
+    <owl:Ontology rdf:about="https://fahad-maqbool.github.io/TTOnt"/>
     
 
 
@@ -22,299 +22,299 @@
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#belongsToTournament -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#belongsToTournament -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#belongsToTournament">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Matches"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Tournaments"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#belongsToTournament">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Matches"/>
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#Tournaments"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasBall -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#hasBall -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasBall"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#hasBall"/>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasCareerLosses -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#hasCareerLosses -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasCareerLosses">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Integer"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#hasCareerLosses">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#Integer"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasCareerWins -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#hasCareerWins -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasCareerWins">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Integer"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#hasCareerWins">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#Integer"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasCommentator -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#hasCommentator -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasCommentator">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Matches"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Commentator"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#hasCommentator">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Matches"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#Commentator"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasCountry -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#hasCountry -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasCountry">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#schema:Country"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#hasCountry">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#schema:Country"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasEquipments -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#hasEquipments -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasEquipments">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Matches"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Equipments"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#hasEquipments">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Matches"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#Equipments"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasEvent -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#hasEvent -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasEvent">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Matches"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#schema:Game"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#SpecificEvent"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#hasEvent">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Matches"/>
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#schema:Game"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#SpecificEvent"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasGame -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#hasGame -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasGame">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Matches"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#schema:Game"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#hasGame">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Matches"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#schema:Game"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasLocation -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#hasLocation -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasLocation">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Tournaments"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#schema:Location"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#hasLocation">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Tournaments"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#schema:Location"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasLosingPlayer -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#hasLosingPlayer -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasLosingPlayer">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Matches"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#schema:Game"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#hasLosingPlayer">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Matches"/>
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#schema:Game"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasMatch -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#hasMatch -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasMatch">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Tournaments"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Matches"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#hasMatch">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Tournaments"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#Matches"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasMatchType -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#hasMatchType -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasMatchType">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Matches"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#MatchType"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#hasMatchType">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Matches"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#MatchType"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasPenaltyPoints -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#hasPenaltyPoints -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasPenaltyPoints">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Integer"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#hasPenaltyPoints">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#Integer"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasPlayers -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#hasPlayers -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasPlayers">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Matches"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#hasPlayers">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Matches"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasPoint -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#hasPoint -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasPoint">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#schema:Game"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Point"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#hasPoint">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#schema:Game"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#Point"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasPrizeMoney -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#hasPrizeMoney -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasPrizeMoney">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Tournaments"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#MonetaryValue"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#hasPrizeMoney">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Tournaments"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#MonetaryValue"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasReferee -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#hasReferee -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasReferee">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Tournaments"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#schema:Game"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Referee"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#hasReferee">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Tournaments"/>
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#schema:Game"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#Referee"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasRivalryWith -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#hasRivalryWith -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasRivalryWith">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#hasRivalryWith">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasRules -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#hasRules -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasRules">
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#hasRules">
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Matches"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Tournaments"/>
+                    <rdf:Description rdf:about="https://fahad-maqbool.github.io/TTOnt#Matches"/>
+                    <rdf:Description rdf:about="https://fahad-maqbool.github.io/TTOnt#Tournaments"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#RulesAndRegulations"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#RulesAndRegulations"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasSponsor -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#hasSponsor -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasSponsor">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Tournaments"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Sponsor"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#hasSponsor">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Tournaments"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#Sponsor"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasStrategies -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#hasStrategies -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasStrategies">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Strategies"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#hasStrategies">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#Strategies"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasTable -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#hasTable -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasTable">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#schema:Game"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Table"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#hasTable">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#schema:Game"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#Table"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasTechniques -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#hasTechniques -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasTechniques">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TechniquesAndStrokes"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#hasTechniques">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#TechniquesAndStrokes"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasUmpire -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#hasUmpire -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasUmpire">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Matches"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Umpire"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#hasUmpire">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Matches"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#Umpire"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasWinningPlayer -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#hasWinningPlayer -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasWinningPlayer">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Matches"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#schema:Game"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#hasWinningPlayer">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Matches"/>
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#schema:Game"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasWinningShot -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#hasWinningShot -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasWinningShot">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#schema:Game"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TechniquesAndStrokes"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#hasWinningShot">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#schema:Game"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#TechniquesAndStrokes"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#isCoachedBy -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#isCoachedBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#isCoachedBy">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Coach"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#isCoachedBy">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#Coach"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#playsIn -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#playsIn -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#playsIn">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Tournaments"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#playsIn">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#Tournaments"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#requiresEquipmentApproval -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#requiresEquipmentApproval -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#requiresEquipmentApproval">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Equipments"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ApprovalBody"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#requiresEquipmentApproval">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Equipments"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#ApprovalBody"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#requiresFitnessLevel -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#requiresFitnessLevel -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#requiresFitnessLevel">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#FitnessLevel"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#requiresFitnessLevel">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#FitnessLevel"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#usesEquipment -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#usesEquipment -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#usesEquipment">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Equipments"/>
+    <owl:ObjectProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#usesEquipment">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
+        <rdfs:range rdf:resource="https://fahad-maqbool.github.io/TTOnt#Equipments"/>
     </owl:ObjectProperty>
     
 
@@ -330,280 +330,280 @@
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#BackHandStrokeStyles -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#BackHandStrokeStyles -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#BackHandStrokeStyles">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#BackHand"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#BackHandStrokeStyles">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#BackHand"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#BallColor -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#BallColor -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#BallColor">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Balls"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#BallColor">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Balls"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#BallMaterial -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#BallMaterial -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#BallMaterial">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Balls"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#BallMaterial">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Balls"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#BallSize -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#BallSize -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#BallSize">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Balls"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#BallSize">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Balls"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#BallWeight -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#BallWeight -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#BallWeight">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Balls"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#BallWeight">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Balls"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ForeHandStrokeStyles -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#ForeHandStrokeStyles -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ForeHandStrokeStyles">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ForeHand"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#ForeHandStrokeStyles">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#ForeHand"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#GlueType -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#GlueType -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#GlueType">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#BoosterGlue"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#GlueType">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#BoosterGlue"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#MatchDuration -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#MatchDuration -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#MatchDuration">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Matches"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#MatchDuration">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Matches"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#MatchTiming -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#MatchTiming -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#MatchTiming">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Matches"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#MatchTiming">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Matches"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#MatchVenue -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#MatchVenue -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#MatchVenue">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Matches"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#MatchVenue">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Matches"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Matchpoints -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Matchpoints -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Matchpoints">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Matches"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#Matchpoints">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Matches"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#NetHeight -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#NetHeight -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#NetHeight">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Net"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#NetHeight">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Net"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#NetWidth -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#NetWidth -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#NetWidth">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Net"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#NetWidth">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Net"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PaddleGrip -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#PaddleGrip -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PaddleGrip">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#BatGrip"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#PaddleGrip">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#BatGrip"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PaddleHeight -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#PaddleHeight -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PaddleHeight">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Paddles"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#PaddleHeight">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Paddles"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PaddleWidth -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#PaddleWidth -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PaddleWidth">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Paddles"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#PaddleWidth">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Paddles"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PlayerAge -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#PlayerAge -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PlayerAge">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#PlayerAge">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PlayerBirthDate -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#PlayerBirthDate -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PlayerBirthDate">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#PlayerBirthDate">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PlayerFirstName -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#PlayerFirstName -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PlayerFirstName">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#PlayerFirstName">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PlayerHeight -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#PlayerHeight -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PlayerHeight">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#PlayerHeight">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PlayerLastName -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#PlayerLastName -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PlayerLastName">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#PlayerLastName">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PlayerNationality -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#PlayerNationality -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PlayerNationality">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#PlayerNationality">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PlayerNickname -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#PlayerNickname -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PlayerNickname">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#PlayerNickname">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ServiceStyles -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#ServiceStyles -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ServiceStyles">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ServiceRules"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#ServiceStyles">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#ServiceRules"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#StandingPositions -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#StandingPositions -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#StandingPositions">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ReadyPosition"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#StandingPositions">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#ReadyPosition"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TableHeight -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#TableHeight -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TableHeight">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Table"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#TableHeight">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Table"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TableLength -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#TableLength -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TableLength">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Table"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#TableLength">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Table"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TableWidth -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#TableWidth -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TableWidth">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Matches"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#TableWidth">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Matches"/>
         <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TournamentDate -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#TournamentDate -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TournamentDate">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Tournaments"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#TournamentDate">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Tournaments"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TournamentTime -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#TournamentTime -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TournamentTime">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Tournaments"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#TournamentTime">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Tournaments"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TournamentVenue -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#TournamentVenue -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TournamentVenue">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Tournaments"/>
+    <owl:DatatypeProperty rdf:about="https://fahad-maqbool.github.io/TTOnt#TournamentVenue">
+        <rdfs:domain rdf:resource="https://fahad-maqbool.github.io/TTOnt#Tournaments"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -620,44 +620,44 @@
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ApprovalBody -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#ApprovalBody -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ApprovalBody">
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#ApprovalBody">
         <rdfs:comment xml:lang="en-us">A public or private law body which is authorised to issue European technical approvals.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#BackHand -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#BackHand -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#BackHand">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TechniquesAndStrokes"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#BackHand">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#TechniquesAndStrokes"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A stroke hit with the back of the hand.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Balls -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Balls -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Balls">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Equipments"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#Balls">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#Equipments"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#BallColor"/>
+                <owl:onProperty rdf:resource="https://fahad-maqbool.github.io/TTOnt#BallColor"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#BallMaterial"/>
+                <owl:onProperty rdf:resource="https://fahad-maqbool.github.io/TTOnt#BallMaterial"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#BallSize"/>
+                <owl:onProperty rdf:resource="https://fahad-maqbool.github.io/TTOnt#BallSize"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
             </owl:Restriction>
@@ -667,209 +667,209 @@
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#BatGrip -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#BatGrip -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#BatGrip">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TechniquesAndStrokes"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#BatGrip">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#TechniquesAndStrokes"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The way a player holds their racket.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#BoosterGlue -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#BoosterGlue -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#BoosterGlue">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Equipments"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#BoosterGlue">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#Equipments"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type of glue used to attach the rubber to the blade.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Coach -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Coach -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Coach">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#schema:Person"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#Coach">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#schema:Person"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A person who trains and guides players to improve their skills and strategy</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Commentator -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Commentator -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Commentator">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#DoubleRules"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#Commentator">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#DoubleRules"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A person who provides live commentary and analysis during matches.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ControlYourTemper -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#ControlYourTemper -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ControlYourTemper">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Strategies"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#ControlYourTemper">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#Strategies"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maintaining emotional composure during intense matches.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#DoubleMatchPlayers -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#DoubleMatchPlayers -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#DoubleMatchPlayers">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#DoubleMatchPlayers">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compete in doubles events.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#DoubleRules -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#DoubleRules -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#DoubleRules">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#RulesAndRegulations"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#DoubleRules">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#RulesAndRegulations"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rules governing doubles matches, where two players form a team.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Equipments -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Equipments -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Equipments">
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#Equipments">
         <rdfs:comment xml:lang="en-us">The necessary items for a particular purpose.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#FamousTrophies -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#FamousTrophies -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#FamousTrophies">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Tournaments"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#FamousTrophies">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#Tournaments"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iconic awards given to winners of prestigious tournaments</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#FitnessLevel -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#FitnessLevel -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#FitnessLevel">
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#FitnessLevel">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A player&apos;s physical condition and endurance to perform at their best.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#FootWork -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#FootWork -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#FootWork">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TechniquesAndStrokes"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#FootWork">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#TechniquesAndStrokes"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Movement and positioning around the table.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ForeHand -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#ForeHand -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ForeHand">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TechniquesAndStrokes"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#ForeHand">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#TechniquesAndStrokes"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A stroke hit with the front of the hand.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ForehandsAreTheWayToGo -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#ForehandsAreTheWayToGo -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ForehandsAreTheWayToGo">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Strategies"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#ForehandsAreTheWayToGo">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#Strategies"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emphasizing the importance of a strong forehand stroke.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#GeneralMatchPlay -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#GeneralMatchPlay -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#GeneralMatchPlay">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#RulesAndRegulations"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#GeneralMatchPlay">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#RulesAndRegulations"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Standard rules for playing a table tennis match.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ITTFWorldTour -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#ITTFWorldTour -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ITTFWorldTour">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Tournaments"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#ITTFWorldTour">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#Tournaments"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A series of international tournaments, with events in various countries, leading up to the World Tour Finals.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Integer -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Integer -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Integer"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#Integer"/>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#MatchDate -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#MatchDate -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#MatchDate">
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#MatchDate">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The scheduled date and time for a match to take place.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#MatchType -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#MatchType -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#MatchType">
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#MatchType">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Various formats, such as singles, doubles, mixed doubles, and team matches.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Matches -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Matches -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Matches">
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#Matches">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasPlayers"/>
+                <owl:onProperty rdf:resource="https://fahad-maqbool.github.io/TTOnt#hasPlayers"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
+                <owl:onClass rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasReferee"/>
+                <owl:onProperty rdf:resource="https://fahad-maqbool.github.io/TTOnt#hasReferee"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Referee"/>
+                <owl:onClass rdf:resource="https://fahad-maqbool.github.io/TTOnt#Referee"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasSponsor"/>
+                <owl:onProperty rdf:resource="https://fahad-maqbool.github.io/TTOnt#hasSponsor"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Sponsor"/>
+                <owl:onClass rdf:resource="https://fahad-maqbool.github.io/TTOnt#Sponsor"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasBall"/>
+                <owl:onProperty rdf:resource="https://fahad-maqbool.github.io/TTOnt#hasBall"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Balls"/>
+                <owl:onClass rdf:resource="https://fahad-maqbool.github.io/TTOnt#Balls"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasTable"/>
+                <owl:onProperty rdf:resource="https://fahad-maqbool.github.io/TTOnt#hasTable"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Table"/>
+                <owl:onClass rdf:resource="https://fahad-maqbool.github.io/TTOnt#Table"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Matchpoints"/>
+                <owl:onProperty rdf:resource="https://fahad-maqbool.github.io/TTOnt#Matchpoints"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">11</owl:minQualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#MatchVenue"/>
+                <owl:onProperty rdf:resource="https://fahad-maqbool.github.io/TTOnt#MatchVenue"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
@@ -879,136 +879,136 @@
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#MixedDoubles -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#MixedDoubles -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#MixedDoubles">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Matches"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#MixedDoubles">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#Matches"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A competition where teams consist of one male and one female player.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#MixedDoublesPlayers -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#MixedDoublesPlayers -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#MixedDoublesPlayers">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#SingleMatchPlayers"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#MixedDoublesPlayers">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#SingleMatchPlayers"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compete in mixed doubles events (male/female teams).</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#MixupReturns -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#MixupReturns -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#MixupReturns">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Strategies"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#MixupReturns">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#Strategies"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Varying the type and speed of returns to keep the opponent guessing.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#MixupServices -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#MixupServices -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#MixupServices">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Strategies"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#MixupServices">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#Strategies"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Varying the type and speed of serves to keep the opponent guessing.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#MonetaryValue -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#MonetaryValue -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#MonetaryValue">
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#MonetaryValue">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prize money awarded to winners in professional tournaments.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Net -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Net -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Net">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Equipments"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#Net">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#Equipments"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The dividing line between the two halves of the table, made of a 6mm high and 15.25cm long piece of string.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#OddTableTennisRules -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#OddTableTennisRules -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#OddTableTennisRules">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#RulesAndRegulations"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#OddTableTennisRules">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#RulesAndRegulations"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unusual or lesser-known rules, such as &quot;let&quot; calls or &quot;flick&quot; serves.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Olympics -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Olympics -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Olympics">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Tournaments"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#Olympics">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#Tournaments"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Table tennis is one of the sports featured at the Summer Olympic Games, with singles and team events.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PaddleCases -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#PaddleCases -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PaddleCases">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Equipments"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#PaddleCases">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#Equipments"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protective covers for table tennis rackets</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Paddles -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Paddles -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Paddles">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Equipments"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#Paddles">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#Equipments"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A player&apos;s equipment, consisting of a blade and rubber, used to hit the ball.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Players -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#schema:Person"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#Players">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#schema:Person"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PlayerNickname"/>
+                <owl:onProperty rdf:resource="https://fahad-maqbool.github.io/TTOnt#PlayerNickname"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PlayerAge"/>
+                <owl:onProperty rdf:resource="https://fahad-maqbool.github.io/TTOnt#PlayerAge"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">16</owl:minQualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PlayerBirthDate"/>
+                <owl:onProperty rdf:resource="https://fahad-maqbool.github.io/TTOnt#PlayerBirthDate"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PlayerFirstName"/>
+                <owl:onProperty rdf:resource="https://fahad-maqbool.github.io/TTOnt#PlayerFirstName"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PlayerLastName"/>
+                <owl:onProperty rdf:resource="https://fahad-maqbool.github.io/TTOnt#PlayerLastName"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#PlayerNationality"/>
+                <owl:onProperty rdf:resource="https://fahad-maqbool.github.io/TTOnt#PlayerNationality"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
@@ -1018,65 +1018,65 @@
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Point -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Point -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Point">
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#Point">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A single score unit, awarded when a player fails to return the ball or makes an error.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ReadyPosition -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#ReadyPosition -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ReadyPosition">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TechniquesAndStrokes"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#ReadyPosition">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#TechniquesAndStrokes"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The stance and preparation before receiving a serve or returning a shot.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Referee -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Referee -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Referee">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#schema:Person"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#Referee">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#schema:Person"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The official responsible for enforcing the rules and making decisions during matches.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Robots -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Robots -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Robots">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Equipments"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#Robots">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#Equipments"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Automated machines for solo practice and training</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#RubberCovers -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#RubberCovers -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#RubberCovers">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Equipments"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#RubberCovers">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#Equipments"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-  Protective sheets for shielding racket rubber when not in use</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#RulesAndRegulations -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#RulesAndRegulations -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#RulesAndRegulations">
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#RulesAndRegulations">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official guidelines governing gameplay, equipment, and player conduct, set by the International Table Tennis Federation (ITTF).</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Service -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Service -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Service">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TechniquesAndStrokes"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#Service">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#TechniquesAndStrokes"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ServiceStyles"/>
+                <owl:onProperty rdf:resource="https://fahad-maqbool.github.io/TTOnt#ServiceStyles"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
@@ -1086,177 +1086,177 @@
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ServiceRules -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#ServiceRules -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ServiceRules">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#RulesAndRegulations"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#ServiceRules">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#RulesAndRegulations"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulations governing the serve, including toss height, ball position, and contact.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#SingleMatchPlayers -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#SingleMatchPlayers -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#SingleMatchPlayers">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#SingleMatchPlayers">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compete in singles events.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#SpecificEvent -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#SpecificEvent -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#SpecificEvent">
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#SpecificEvent">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A particular tournament or competition, such as the World Championships or Olympic Games.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Spin -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Spin -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Spin">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TechniquesAndStrokes"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#Spin">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#TechniquesAndStrokes"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rotational motion imparted on the ball to affect its trajectory.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Sponsor -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Sponsor -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Sponsor">
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#Sponsor">
         <rdfs:comment xml:lang="en-us">A person or organization that supports a thing through a pledge, promise or financial contribution.E.g. a sponsor of a medical study or a corporate sponsor of an event.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Strategies -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Strategies -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Strategies">
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#Strategies">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plans and tactics used to gain an advantage during a match.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Table -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Table -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Table">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Equipments"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#Table">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#Equipments"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The playing surface, 9x5 feet with a net</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TableTennisOrganization -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#TableTennisOrganization -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TableTennisOrganization">
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#TableTennisOrganization">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Governing bodies like the International Table Tennis Federation (ITTF) or national associations.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TeamDisciplines -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#TeamDisciplines -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TeamDisciplines">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Matches"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#TeamDisciplines">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#Matches"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Events where teams compete together, like team matches and team tournaments.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TeamDisciplinesPlayers -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#TeamDisciplinesPlayers -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TeamDisciplinesPlayers">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#TeamDisciplinesPlayers">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Players who represent their country or team in team events.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TechniquesAndStrokes -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#TechniquesAndStrokes -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TechniquesAndStrokes">
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#TechniquesAndStrokes">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Various ways of hitting the ball</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ThirdBallAttack -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#ThirdBallAttack -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ThirdBallAttack">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Strategies"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#ThirdBallAttack">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#Strategies"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A strategy where the player attacks their opponent&apos;s third ball (the receive after the serve and return)</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Timing -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Timing -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Timing">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TechniquesAndStrokes"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#Timing">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#TechniquesAndStrokes"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coordinating movements to hit the ball at the optimal moment.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Tournaments -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Tournaments -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Tournaments">
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#Tournaments">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Competitions where players or teams compete in matches to determine a winner.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Towels -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Towels -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Towels">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Equipments"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#Towels">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#Equipments"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Absorbent cloths for wiping sweat during matches</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Umpire -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Umpire -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Umpire">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#schema:Person"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#Umpire">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#schema:Person"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#WorldCup -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#WorldCup -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#WorldCup">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Tournaments"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#WorldCup">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#Tournaments"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An annual tournament featuring top players, with separate events for men and women.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#WorldTableTennisChampionships -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#WorldTableTennisChampionships -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#WorldTableTennisChampionships">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Tournaments"/>
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#WorldTableTennisChampionships">
+        <rdfs:subClassOf rdf:resource="https://fahad-maqbool.github.io/TTOnt#Tournaments"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">: A biennial tournament organized by the ITTF, featuring individual and team events.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#schema:Country -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#schema:Country -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#schema:Country">
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#schema:Country">
         <rdfs:comment xml:lang="en-us">A Country is a distinct part of the world such as a state, nation, or other political entity.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#schema:Game -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#schema:Game -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#schema:Game">
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#schema:Game">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#hasPoint"/>
+                <owl:onProperty rdf:resource="https://fahad-maqbool.github.io/TTOnt#hasPoint"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">11</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Point"/>
+                <owl:onClass rdf:resource="https://fahad-maqbool.github.io/TTOnt#Point"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en-us">These are typically rule-governed recreational activities.</rdfs:comment>
@@ -1264,17 +1264,17 @@
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#schema:Location -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#schema:Location -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#schema:Location">
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#schema:Location">
         <rdfs:comment xml:lang="en-us">A particular place or position.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#schema:Person -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#schema:Person -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#schema:Person">
+    <owl:Class rdf:about="https://fahad-maqbool.github.io/TTOnt#schema:Person">
         <rdfs:comment xml:lang="en-us">A person (alive, dead, undead or fictional).</rdfs:comment>
     </owl:Class>
     
@@ -1291,10 +1291,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Ball1 -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Ball1 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Ball1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Balls"/>
+    <owl:NamedIndividual rdf:about="https://fahad-maqbool.github.io/TTOnt#Ball1">
+        <rdf:type rdf:resource="https://fahad-maqbool.github.io/TTOnt#Balls"/>
         <BallColor>White</BallColor>
         <BallMaterial>Celluloid</BallMaterial>
         <BallSize>40mm</BallSize>
@@ -1303,10 +1303,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Ball2 -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Ball2 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Ball2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Balls"/>
+    <owl:NamedIndividual rdf:about="https://fahad-maqbool.github.io/TTOnt#Ball2">
+        <rdf:type rdf:resource="https://fahad-maqbool.github.io/TTOnt#Balls"/>
         <BallColor>White</BallColor>
         <BallMaterial>Celluloid</BallMaterial>
         <BallSize>40mm</BallSize>
@@ -1315,81 +1315,81 @@
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Double -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Double -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Double">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#MatchType"/>
+    <owl:NamedIndividual rdf:about="https://fahad-maqbool.github.io/TTOnt#Double">
+        <rdf:type rdf:resource="https://fahad-maqbool.github.io/TTOnt#MatchType"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Foul -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Foul -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Foul">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#SpecificEvent"/>
+    <owl:NamedIndividual rdf:about="https://fahad-maqbool.github.io/TTOnt#Foul">
+        <rdf:type rdf:resource="https://fahad-maqbool.github.io/TTOnt#SpecificEvent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#GamePoint -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#GamePoint -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#GamePoint">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#SpecificEvent"/>
+    <owl:NamedIndividual rdf:about="https://fahad-maqbool.github.io/TTOnt#GamePoint">
+        <rdf:type rdf:resource="https://fahad-maqbool.github.io/TTOnt#SpecificEvent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Match1 -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Match1 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Match1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Matches"/>
-        <hasBall rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Ball1"/>
-        <hasLocation rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TokyoMetropolitanGymnasium"/>
-        <hasLosingPlayer rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Player2"/>
-        <hasMatchType rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Single"/>
-        <hasPlayers rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Player1"/>
-        <hasPlayers rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Player2"/>
-        <hasTable rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Table1"/>
-        <hasWinningPlayer rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Player1"/>
+    <owl:NamedIndividual rdf:about="https://fahad-maqbool.github.io/TTOnt#Match1">
+        <rdf:type rdf:resource="https://fahad-maqbool.github.io/TTOnt#Matches"/>
+        <hasBall rdf:resource="https://fahad-maqbool.github.io/TTOnt#Ball1"/>
+        <hasLocation rdf:resource="https://fahad-maqbool.github.io/TTOnt#TokyoMetropolitanGymnasium"/>
+        <hasLosingPlayer rdf:resource="https://fahad-maqbool.github.io/TTOnt#Player2"/>
+        <hasMatchType rdf:resource="https://fahad-maqbool.github.io/TTOnt#Single"/>
+        <hasPlayers rdf:resource="https://fahad-maqbool.github.io/TTOnt#Player1"/>
+        <hasPlayers rdf:resource="https://fahad-maqbool.github.io/TTOnt#Player2"/>
+        <hasTable rdf:resource="https://fahad-maqbool.github.io/TTOnt#Table1"/>
+        <hasWinningPlayer rdf:resource="https://fahad-maqbool.github.io/TTOnt#Player1"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Match2 -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Match2 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Match2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Matches"/>
-        <hasBall rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Ball2"/>
-        <hasLocation rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Nagoya"/>
-        <hasMatchType rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Single"/>
-        <hasPlayers rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Player3"/>
-        <hasPlayers rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Player4"/>
-        <hasTable rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Table2"/>
+    <owl:NamedIndividual rdf:about="https://fahad-maqbool.github.io/TTOnt#Match2">
+        <rdf:type rdf:resource="https://fahad-maqbool.github.io/TTOnt#Matches"/>
+        <hasBall rdf:resource="https://fahad-maqbool.github.io/TTOnt#Ball2"/>
+        <hasLocation rdf:resource="https://fahad-maqbool.github.io/TTOnt#Nagoya"/>
+        <hasMatchType rdf:resource="https://fahad-maqbool.github.io/TTOnt#Single"/>
+        <hasPlayers rdf:resource="https://fahad-maqbool.github.io/TTOnt#Player3"/>
+        <hasPlayers rdf:resource="https://fahad-maqbool.github.io/TTOnt#Player4"/>
+        <hasTable rdf:resource="https://fahad-maqbool.github.io/TTOnt#Table2"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Nagoya -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Nagoya -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Nagoya">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#schema:Location"/>
+    <owl:NamedIndividual rdf:about="https://fahad-maqbool.github.io/TTOnt#Nagoya">
+        <rdf:type rdf:resource="https://fahad-maqbool.github.io/TTOnt#schema:Location"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Netball -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Netball -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Netball">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#SpecificEvent"/>
+    <owl:NamedIndividual rdf:about="https://fahad-maqbool.github.io/TTOnt#Netball">
+        <rdf:type rdf:resource="https://fahad-maqbool.github.io/TTOnt#SpecificEvent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Player1 -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Player1 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Player1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
-        <hasRivalryWith rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Player2"/>
+    <owl:NamedIndividual rdf:about="https://fahad-maqbool.github.io/TTOnt#Player1">
+        <rdf:type rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
+        <hasRivalryWith rdf:resource="https://fahad-maqbool.github.io/TTOnt#Player2"/>
         <PlayerAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">32</PlayerAge>
         <PlayerBirthDate>20 October 1988</PlayerBirthDate>
         <PlayerFirstName>Ma</PlayerFirstName>
@@ -1401,11 +1401,11 @@
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Player2 -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Player2 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Player2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
-        <hasRivalryWith rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Player1"/>
+    <owl:NamedIndividual rdf:about="https://fahad-maqbool.github.io/TTOnt#Player2">
+        <rdf:type rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
+        <hasRivalryWith rdf:resource="https://fahad-maqbool.github.io/TTOnt#Player1"/>
         <PlayerAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">32</PlayerAge>
         <PlayerBirthDate>2 September 1988</PlayerBirthDate>
         <PlayerFirstName>Dimitrij</PlayerFirstName>
@@ -1417,11 +1417,11 @@
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Player3 -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Player3 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Player3">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
-        <hasRivalryWith rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Player4"/>
+    <owl:NamedIndividual rdf:about="https://fahad-maqbool.github.io/TTOnt#Player3">
+        <rdf:type rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
+        <hasRivalryWith rdf:resource="https://fahad-maqbool.github.io/TTOnt#Player4"/>
         <PlayerAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31</PlayerAge>
         <PlayerBirthDate>25 August 1940</PlayerBirthDate>
         <PlayerFirstName>Zhaung</PlayerFirstName>
@@ -1432,11 +1432,11 @@
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Player4 -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Player4 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Player4">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Players"/>
-        <hasRivalryWith rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Player3"/>
+    <owl:NamedIndividual rdf:about="https://fahad-maqbool.github.io/TTOnt#Player4">
+        <rdf:type rdf:resource="https://fahad-maqbool.github.io/TTOnt#Players"/>
+        <hasRivalryWith rdf:resource="https://fahad-maqbool.github.io/TTOnt#Player3"/>
         <PlayerAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19</PlayerAge>
         <PlayerBirthDate>25 august 1952</PlayerBirthDate>
         <PlayerFirstName>Glenn</PlayerFirstName>
@@ -1446,54 +1446,54 @@
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ServiceChange -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#ServiceChange -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#ServiceChange">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#SpecificEvent"/>
+    <owl:NamedIndividual rdf:about="https://fahad-maqbool.github.io/TTOnt#ServiceChange">
+        <rdf:type rdf:resource="https://fahad-maqbool.github.io/TTOnt#SpecificEvent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Single -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Single -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Single">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#MatchType"/>
+    <owl:NamedIndividual rdf:about="https://fahad-maqbool.github.io/TTOnt#Single">
+        <rdf:type rdf:resource="https://fahad-maqbool.github.io/TTOnt#MatchType"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Smash -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Smash -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Smash">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#SpecificEvent"/>
+    <owl:NamedIndividual rdf:about="https://fahad-maqbool.github.io/TTOnt#Smash">
+        <rdf:type rdf:resource="https://fahad-maqbool.github.io/TTOnt#SpecificEvent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Table1 -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Table1 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Table1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Table"/>
+    <owl:NamedIndividual rdf:about="https://fahad-maqbool.github.io/TTOnt#Table1">
+        <rdf:type rdf:resource="https://fahad-maqbool.github.io/TTOnt#Table"/>
         <TableLength>9feet</TableLength>
         <TableWidth>5feet</TableWidth>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Table2 -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#Table2 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Table2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#Table"/>
+    <owl:NamedIndividual rdf:about="https://fahad-maqbool.github.io/TTOnt#Table2">
+        <rdf:type rdf:resource="https://fahad-maqbool.github.io/TTOnt#Table"/>
         <TableLength>9feet</TableLength>
         <TableWidth>5feet</TableWidth>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TokyoMetropolitanGymnasium -->
+    <!-- https://fahad-maqbool.github.io/TTOnt#TokyoMetropolitanGymnasium -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#TokyoMetropolitanGymnasium">
-        <rdf:type rdf:resource="http://www.semanticweb.org/kawishcomputers/ontologies/2023/10/untitled-ontology-3#schema:Location"/>
+    <owl:NamedIndividual rdf:about="https://fahad-maqbool.github.io/TTOnt#TokyoMetropolitanGymnasium">
+        <rdf:type rdf:resource="https://fahad-maqbool.github.io/TTOnt#schema:Location"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
